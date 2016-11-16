@@ -1,11 +1,12 @@
 {
   "name": "Hacklicker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Hack Clicking Click Hacker.",
   "main": "index.js",
   "author": "Matt Barker @RibbonLance",
   "scripts": {
-    "start": "http-server ."
+    "start": "http-server .",
+    "start-ext": "http-server . -p 3000"
   },
   "devDependencies": {
     "eslint": "^3.10.2",
